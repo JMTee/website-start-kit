@@ -1,0 +1,22 @@
+{
+  "name": "html-css-js-starter-kit",
+  "homepage": "https://github.com/JMTee/website-start-kit",
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Builtable JM"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  },
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

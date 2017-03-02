@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*full image styles*/
+
+.full-image-background{
+
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center center;
+height:720px;
+width:100%;
+}
+
+.full-image-background.adventure{
+background-image:url('../IMG/adventure.jpg');
+}
+
+.full-image-background.flying{
+background-image:url('../IMG/flying.jpg');
+}
+
+
+
+
+.heading-text{
+    padding-top:50px;
+
+}
+
+.heading-text h4, .heading-text h1, .heading-text h3{
+    text-align:center;
+    color:white;
+    line-height:60px;
+/*https://css3gen.com/text-shadow/*/
+text-shadow: 1px 1px 17px rgba(0, 0, 0, 0.44);
+}
+.heading-text h3{
+    color:#e67e22;
+}
+.heading-text .btn{
+     margin: 0 auto;
+    float: none;
+    display: block;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    text-shadow: 1px 1px 17px rgba(0, 0, 0, 0.44);
+}
+
+
+/*title-paragraph area*/
+
+.title-2paragraph {
+    min-height:300px;
+    padding:58px 160px;
+
+}
+.title-2paragraph h1{
+text-align:center;
+}
+
+
+/*featured experiences*/
+.featured-experiences{
+    padding: 58px 160px;
+}
+
+.featured-experiences h3,.featured-experiences p{
+text-align:center;
+}
+.featured-experiences .thumbnail{
+border:none;
+
+}
+.featured-experiences .thumbnail p{
+   color:#e67e22;
+}
+
+
+/*for tablet below*/
+@media (max-width: 991px) {
+    .title-2paragraph,.featured-experiences {
+    padding: 50px 15px;
+    }
+}
