@@ -1,0 +1,7 @@
+.embedded-link{
+/*avoid using !important*/
+    /*color:green !important;*/
+    color:green;
+    font-size:20pt;
+
+}
