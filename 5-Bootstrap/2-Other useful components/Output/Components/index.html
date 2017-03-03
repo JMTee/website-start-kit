@@ -1,0 +1,167 @@
+<!--  Document Type Declaration, or doctype. 
+This is simply a way to tell the browser—or any other parser—what type of document it’s looking at.
+the one below is for HTML5
+-->
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML, CSS, JS Starter kit</title>
+  <meta name="description" content="This is a starter kit for beginners who want to learn web.">
+  <meta name="author" content="Builtable Coworking - JMTee">
+  <link rel="stylesheet" href="CSS\custom.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+
+</head>
+
+<body>
+<div class="container">
+
+<h1>Buttons</h1>
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Link</button>
+
+
+
+    <!-- useful components http://getbootstrap.com/components/-->
+  <h1><span class="glyphicon glyphicon-heart"></span>Glyphicons</h1>
+  <br/>
+  <a class="btn btn-default glyphicon glyphicon-home"></a>
+
+<hr/>
+
+<h1>Thumbnails</h1>
+   <div class="row">
+ 
+   <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://www.w3schools.com/css/img_fjords.jpg">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://www.w3schools.com/css/img_fjords.jpg">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="https://www.w3schools.com/css/img_fjords.jpg">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<hr>>
+<h1>Modal</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<hr>
+
+
+<h1>carousel </h1>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://fb-s-d-a.akamaihd.net/h-ak-xpt1/v/t1.0-9/16387419_10154965093052748_4408434591829783405_n.jpg?oh=e473d47524d3b1164228ab7cf7e2c35a&oe=5934C863&__gda__=1497075844_2fe75bd65b183f17020d9c8ace96073b" alt="...">
+      <div class="carousel-caption">
+        what a wonderful world 
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://fb-s-d-a.akamaihd.net/h-ak-xpt1/v/t1.0-9/16387419_10154965093052748_4408434591829783405_n.jpg?oh=e473d47524d3b1164228ab7cf7e2c35a&oe=5934C863&__gda__=1497075844_2fe75bd65b183f17020d9c8ace96073b" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+</div>
+  <!--script tag load faster here-->
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
