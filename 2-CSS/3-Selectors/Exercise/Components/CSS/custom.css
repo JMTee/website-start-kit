@@ -1,0 +1,34 @@
+/*for id*/
+#link-id{
+
+}
+/*for class*/
+.link-class{
+
+}
+/*for element*/
+a{
+;
+}
+
+/*for a element that has href property*/
+a[href*="hi"]{
+
+}
+
+/*on hover of a a tag*/
+a:hover{
+   
+}
+/*two classes*/
+.link-class.second-class{
+    
+}
+/*parent child*/
+p a{
+    
+}
+
+
+
+/*for more css selectors go to https://www.w3schools.com/cssref/css_selectors.asp*/

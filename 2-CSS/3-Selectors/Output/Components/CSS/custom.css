@@ -1,0 +1,35 @@
+/*for id*/
+#link-id{
+color:blue;
+}
+/*for class*/
+.link-class{
+color:red
+}
+/*for element*/
+a{
+color:black;
+}
+
+/*for a element that has href property*/
+a[href*="hi"]{
+color:green;
+}
+
+/*on hover of a a tag*/
+a:hover{
+    color: orange;
+    text-decoration:none;
+}
+/*two classes*/
+.link-class.second-class{
+    color:brown;
+}
+/*parent child*/
+p a{
+    color:blueviolet;
+}
+
+
+
+/*for more css selectors go to https://www.w3schools.com/cssref/css_selectors.asp*/

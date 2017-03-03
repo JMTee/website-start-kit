@@ -1,0 +1,22 @@
+body{
+    margin:0px;
+    height:1000px;
+}
+
+nav{
+    background-color:pink;
+    padding:20px;
+    width:100%;
+}
+
+nav.nav-absolute{
+    position:absolute;
+    bottom:0px;
+}
+
+nav.nav-fixed{
+    position:fixed;
+    bottom:0px;
+}
+
+/*for more css selectors go to https://www.w3schools.com/cssref/css_selectors.asp*/
