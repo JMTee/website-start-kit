@@ -41,7 +41,7 @@ border:1px solid white;
         border: 1px solid #e67e22;        
     }
 /*for tablet below*/
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .nav.navbar-nav.custom{
         float:none;
     }

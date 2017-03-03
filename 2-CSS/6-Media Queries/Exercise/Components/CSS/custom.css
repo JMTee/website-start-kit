@@ -1,0 +1,34 @@
+body{
+    margin:0px;
+}
+.container{
+    
+width:100%;
+margin: 0 auto; 
+
+}
+.outer{
+
+height:500px;
+background-color:pink;
+}
+
+
+.column{
+    float:left;
+    background-color:blue;
+}
+
+@media screen and (max-width: 991px) {
+    
+ .outer{
+        
+    }
+
+.column{
+  
+ 
+    
+}
+    
+}
